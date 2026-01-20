@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+     <header >
+            <h1 class="text-5xl font-extrabold bg-gradient-to-r  from-prim to-secon text-white  text-center  font-delius">Welcome to To-Do List !</h1>
+     </header>
+     <section>
+        <div class="container mt-[5rem] mx-auto">
+            <div class="flex-row text-center ">
+               <input type="text" placeholder="Enter your task" class="border border-black rounded-md p-2 w-80"/>
+                 
+                <button type="submit"  class="rounded-sm bg-gradient-to-r from-prim to-secon text-white p-2 font-delius transform transition-transform duration-300 hover:scale-110 cursor-pointer"><i class="fa-solid fa-plus"></i>  ADD</button>
+            </div>
+
+            <div class="mt-[3rem] flex  justify-center align-middle">
+                 <button class="border-black rounded-md  bg-gray-400 w-60 p-2 m-2 hover:scale-110  transistion-transform duration-700 hover:bg-gradient-to-r hover: from-prim hover: to-secon hover: text-white hover:cursor-pointer" >All</button>
+                 <button class="border-black rounded-md  bg-gray-400 w-60 p-2 m-2   transition-transform duration-700 hover:scale-110  hover:bg-gradient-to-r hover: from-prim hover: to-secon hover: text-white hover:cursor-pointer">Active</button>
+                 <button class="border-black rounded-md  bg-gray-400 w-60 p-2 m-2 transition-transform duration-700 hover:scale-110 hover:bg-gradient-to-r hover:from-prim hover: to-secon hover: text-white hover:cursor-pointer">completed </button>
+            </div>
+            <div class="mt-3">
+                <p class="text-gray-500 text-center "> No tasks yet. Add one above! </p>
+            </div>
+        </div>
+        
+      
+     </section>
+
+</body>
+</html>

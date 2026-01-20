@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@layer components{
+    @theme{
+        --font-delius:"Delius", cursive;
+        --color-prim:#d7b5f5;
+        --color-secon:#8410eb;
+    }
+
+}
